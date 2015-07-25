@@ -10,14 +10,14 @@ cp /home/m/hopkins_ubuntu_setup/Templates/serve.sh /home/m/Scripts/serve.sh
 echo "export PATH=\"\$HOME/Scripts:\$HOME/.local/bin:\$PATH\"" >> "/home/m/hopkins_ubuntu_setup/Templates/.zshrc.conf"
 
 # Install the first part of the Laravel/Settler package, the base packages
-. /home/m/hopkins_ubuntu_setup/Vendor/laravel-settler/components/basePackages.sh
+. /home/m/hopkins_ubuntu_setup/Nonoriginal/laravel-settler/components/basePackages.sh
 
 # Run the rest of laravel settler
-. /home/m/hopkins_ubuntu_setup/Vendor/laravel-settler/settler.sh
+. /home/m/hopkins_ubuntu_setup/Nonoriginal/laravel-settler/settler.sh
 
 # Run the desired code from ubuntu-bash-script-first-install-master
 
-. /home/m/hopkins_ubuntu_setup/Vendor/ubuntu-bash-script-first-intall-master/desktop.sh
+. /home/m/hopkins_ubuntu_setup/Nonoriginal/ubuntu-bash-script-first-intall-master/desktop.sh
 
 # Install them apps!
 

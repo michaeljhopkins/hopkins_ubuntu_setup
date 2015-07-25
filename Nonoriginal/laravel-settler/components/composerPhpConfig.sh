@@ -5,7 +5,7 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Install Laravel Envoy
-echo "export PATH=\"/home/m/.composer/Vendor/bin:\$PATH\"" >> "/home/m/hopkins_ubuntu_setup/Templates/.zshrc.conf"
+echo "export PATH=\"/home/m/.composer/vendor/bin:\$PATH\"" >> "/home/m/hopkins_ubuntu_setup/Templates/.zshrc.conf"
 /usr/local/bin/composer global require laravel/envoy laravel/installer fabpot/php-cs-fixer halleck45/phpmetrics pdepend/pdepend squizlabs/php_codesniffer sebastian/phpcpd phpmd/phpmd
 
 # Set Some PHP CLI Settings
