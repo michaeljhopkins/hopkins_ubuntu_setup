@@ -30,7 +30,8 @@ sudo apt-get update
 
 # Install Some Basic Packages
 
-sudo apt-get install -y build-essential dos2unix gcc git libmcrypt4 libpcre3-dev make python2.7-dev python-pip re2c supervisor unattended-upgrades whois
+sudo apt-get install -y build-essential dos2unix gcc git libmcrypt4 libpcre3-dev make python2.7-dev python-pip re2c
+supervisor unattended-upgrades whois libreadline-dev libffi-dev
 
 # Set My Timezone
 
